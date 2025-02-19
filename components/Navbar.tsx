@@ -3,7 +3,7 @@ import Link from "next/link";
 import React from "react";
 import CustomButton from "./CustomButton";
 
-function Navbar() {
+const Navbar = () => {
   return (
     <header className="w-full absolute z-10">
       <nav className="max-w-[1440px] mx-auto flex justify-between items-center sm:px-16 px6 py-4">
@@ -25,6 +25,6 @@ function Navbar() {
       </nav>
     </header>
   );
-}
+};
 
 export default Navbar;
